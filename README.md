@@ -2,7 +2,7 @@
 ### Ejercicios del 01 al 04:
 - 01: Hello World.
   - Código:
-```
+```dart
 void main() {
   String name = "Juan Pablo";
   print("");
@@ -16,7 +16,7 @@ void main() {
 
 - 02: Variables.
   - Código:
-```
+```dart
 // Declarar variables
 int contador;
 String nombre;
@@ -32,7 +32,7 @@ esAdulto = true;
 
 - 03: Maps.
   - Código:
-```
+```dart
 // Crear un mapa
 Map<String, int> verduras = {
   "Cilantro": 1,
@@ -48,7 +48,7 @@ verduras["Papas"] = 8;
 
 - 04: List, maps and Iterables.
   - Código:
-```
+```dart
 import 'dart:ffi';
 
 void main() {
@@ -104,7 +104,7 @@ void main() {
 ### Ejercicios del 05 al 08:
 - 05: Functions.
   - Código Funciones:
-```
+```dart
 // Crear una función que salude
 void saludar() {
   print("Hola");
@@ -137,7 +137,7 @@ Function crearMultiplicador(int factor) {
 ```
 
   - Código prueba:
-```
+```dart
 // Importar desde lib
 import 'package:jpjj_01_08/dart_functions.dart';
 
@@ -191,7 +191,7 @@ void main() {
 - 06: Classes.
   - Código clases:
 ##### Vehiculo
-```
+```dart
 //  Superclase
 class Vehiculo {
   String marca;
@@ -208,7 +208,7 @@ class Vehiculo {
 ```
 
 ##### Coche
-```
+```dart
 // Declaración de clase
 class Coche {
   // Atributo de la clase
@@ -233,7 +233,7 @@ class Coche {
 ```
 
 ##### Auto
-```
+```dart
 import 'vehiculo.dart';
 
 class Auto extends Vehiculo {
@@ -246,7 +246,7 @@ class Auto extends Vehiculo {
 ```
 
 - Código prueba:
-```
+```dart
 import 'package:jpjj_01_08/coche.dart';
 
 void main() {
@@ -271,7 +271,7 @@ void main() {
 
 - 07: Constructors and names.
   - Código:
-```
+```dart
 // Constructor
 Coche(this.marca, this.modelo, this.anio);
 
@@ -285,7 +285,7 @@ Coche.soloMarca(this.marca) {
 
 - 08: get and set.
   - Código:
-```
+```dart
 // Getters
 String get nombre => _nombre;
 int get edad => _edad;
@@ -304,7 +304,7 @@ set edad(int edad) {
 ### Ejercicios del 09 al 15:
 - 09: Abstract class.
   - Código:
-```
+```dart
 abstract class Figura {
   double calcularArea();
 }
@@ -347,7 +347,7 @@ void main() {
 
 - 10: Mixins.
   - Código:
-```
+```dart
 //Definir un mixin
 mixin Volador {
   void volar() {
@@ -376,7 +376,7 @@ void main() {
 
 - 11: Futures.
   - Código:
-```
+```dart
 void main() {
   print("Inicio del programa");
 
@@ -396,7 +396,7 @@ void main() {
 
 - 12: Async Await.
   - Código:
-```
+```dart
 //Archivo async_await.dart
 void main() async {
   print("Inicio del programa");
@@ -416,7 +416,7 @@ void main() async {
 
 - 13: Try catch finally.
   - Código:
-```
+```dart
 void main() {
   try {
     //int resultado = 10 ~/ 2; //Resultado
@@ -437,7 +437,7 @@ void main() {
 
 - 14: Streams.
   - Código:
-```
+```dart
 void main() {
   Stream<int> stream =
       Stream<int>.periodic(Duration(seconds: 1), (count) => count)
@@ -457,7 +457,7 @@ void main() {
 
 - 15: Stream await.
   - Código:
-```
+```dart
 //Archivo azyng_await_streams.dart
 void main() async {
   Stream<int> stream =
