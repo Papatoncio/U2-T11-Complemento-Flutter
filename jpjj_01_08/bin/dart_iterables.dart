@@ -1,29 +1,29 @@
 import 'dart:ffi';
 
 void main() {
-  // * Declarar lista
+  // Declarar lista
   var numeros = [1, 3, 6, 8, 7];
-  // * Recorrer la lista para imprimir los valores
+  // Recorrer la lista para imprimir los valores
   for (var i in numeros) {
     print(i);
   }
-  // * Recorrer la lista para imprimir los valores X2
+  // Recorrer la lista para imprimir los valores X2
   print("Recorriendo con ForEach");
   numeros.forEach((i) => print(i));
 
-  // * Añadir valores a la lista
+  // Añadir valores a la lista
   numeros.add(5);
   print(numeros);
 
-  // * Remover valore
+  // Remover valore
   numeros.remove(8);
   print(numeros);
 
-  // * Crear un mapa
-  // ! var verduras = {"Cilantro": 1, "Zanahoria": 3, "Apio": 5, "Coliflor": 2};
-  // ! print(verduras);
+  // Crear un mapa
+  // var verduras = {"Cilantro": 1, "Zanahoria": 3, "Apio": 5, "Coliflor": 2};
+  // print(verduras);
 
-  // * Crear un mapa
+  // Crear un mapa
   Map<String, int> verduras = {
     "Cilantro": 1,
     "Zanahoria": 3,

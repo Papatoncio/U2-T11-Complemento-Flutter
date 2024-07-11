@@ -1,4 +1,4 @@
-// * Crear una función que salude
+// Crear una función que salude
 void saludar() {
   print("Hola");
 }

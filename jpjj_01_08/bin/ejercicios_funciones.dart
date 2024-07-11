@@ -1,14 +1,14 @@
-// * Importar desde lib
+// Importar desde lib
 import 'package:jpjj_01_08/dart_functions.dart';
 
-// * Declarar la función principal
+// Declarar la función principal
 void main() {
-  for (var i = 0; i <= 10; i++) saludar();
+  for (var i = 0; i <= 1; i++) saludar();
 
   var funcionSaludo = saludar;
   var i = 0;
 
-  while (i < 10) {
+  while (i < 1) {
     funcionSaludo();
     i++;
   }

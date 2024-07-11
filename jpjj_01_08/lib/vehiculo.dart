@@ -1,12 +1,12 @@
-// * Superclase
+//  Superclase
 class Vehiculo {
   String marca;
   int anio;
 
-  //TODO: Constructor
+  // Constructor
   Vehiculo(this.marca, this.anio);
 
-  // * Método
+  // Método
   void mostrarDetalles() {
     print("Marca: ${marca}, Año: ${anio}");
   }

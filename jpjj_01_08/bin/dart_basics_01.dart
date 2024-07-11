@@ -1,26 +1,26 @@
 import 'dart:io';
 
 void main(List<String> arguments) {
-  // * Declarar variables
+  // Declarar variables
   int contador;
   String nombre;
   double nota;
   bool esAdulto;
 
-  // * Asignamos nombres a unas variables
+  // Asignamos nombres a unas variables
   contador = 0;
-  nombre = "Carlos";
+  nombre = "Juan";
   nota = 8.5;
   esAdulto = true;
 
-  // * Declarar una condicional if
+  // Declarar una condicional if
   if (nota > 8) {
     print("Aprobaste");
   } else {
     print("Reprobaste");
   }
 
-  // * Condición Multiple Nota
+  // Condición Multiple Nota
   switch (nota.ceil()) {
     case 8:
     case 9:
@@ -34,13 +34,13 @@ void main(List<String> arguments) {
       break;
   }
 
-  // * Ciclo While
+  // Ciclo While
   while (contador < 5) {
     print("El contador tiene el valor de $contador");
     contador++;
   }
 
-  // * Otro while
+  // Otro while
   int numero;
 
   print("Teclea un número:");
@@ -51,12 +51,12 @@ void main(List<String> arguments) {
     i++;
   }
 
-  // * Ciclo For
+  // Ciclo For
   for (var i = 0; i <= 10; i++) {
     print("$numero X $i = ${numero * i}");
   }
 
-  // * Break
+  // Break
   for (var i = 0; i <= 10; i++) {
     if (i == 7) {
       break;
@@ -64,7 +64,7 @@ void main(List<String> arguments) {
     print("$i");
   }
 
-  // * Ciclo do - while
+  // Ciclo do - while
   do {
     print(contador);
     contador++;
